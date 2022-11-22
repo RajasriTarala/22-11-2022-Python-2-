@@ -1,0 +1,7 @@
+p=int(input('Principle amount: '))
+t=int(input('Time taken:       '))
+r=float(input('Rate of Interest:'))
+si=(p*t*r)/100
+'''print('Simple Interest:' ,si)'''
+EMI=(si+p)/t*12
+print('emi',EMI)
